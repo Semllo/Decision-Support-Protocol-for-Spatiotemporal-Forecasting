@@ -1,4 +1,4 @@
-# paper1-minimal
+# paper
 
 Repositorio minimo y autocontenido para ilustrar el nucleo metodologico de `paper1_benchmark` sin datasets reales ni artefactos pesados.
 
