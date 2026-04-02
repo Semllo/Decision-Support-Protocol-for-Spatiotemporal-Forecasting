@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/paper1_minimal/__init__.py
+src/paper1_minimal/analysis.py
+src/paper1_minimal/baselines.py
+src/paper1_minimal/experiment.py
+src/paper1_minimal/synthetic.py
+src/paper1_minimal.egg-info/PKG-INFO
+src/paper1_minimal.egg-info/SOURCES.txt
+src/paper1_minimal.egg-info/dependency_links.txt
+src/paper1_minimal.egg-info/requires.txt
+src/paper1_minimal.egg-info/top_level.txt
+tests/test_core.py
