@@ -1,17 +1,4 @@
-# paper
 
-Repositorio minimo y autocontenido para ilustrar el nucleo metodologico de `paper1_benchmark` sin datasets reales ni artefactos pesados.
-
-## Que reproduce
-
-Este repo conserva solo cuatro piezas del experimento original:
-
-1. Generacion de un dataset espaciotemporal sintetico con varias seeds.
-2. Predicciones fijas de varios baselines ligeros.
-3. Reevaluacion de esas mismas predicciones bajo referencias perturbadas.
-4. Calculo de `selection regret`, `winner flip rate` y un benchmark simple de reglas de seleccion robusta.
-
-No intenta sustituir al benchmark completo. Su papel es servir como repositorio publicable, pequeno y facil de ejecutar en GitHub.
 
 ## Estructura
 
@@ -73,13 +60,4 @@ El repo esta pensado para mostrar una idea concreta:
 python -m unittest discover -s tests
 ```
 
-## Relacion con el benchmark grande
 
-`paper1_benchmark` contiene:
-
-- datasets reales,
-- familias de perturbacion mas ricas,
-- mas modelos,
-- y el bundle completo para manuscrito.
-
-`paper1-minimal` solo deja una version reducida y publicable del protocolo.
